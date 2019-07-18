@@ -1,0 +1,34 @@
+练习：
+1.创建数据库 grade
+create database grade;
+2.数据库中创建表 student
+
+
+4.插入若干数据
+age:4---16
+socre:0---100
+hobby：football computer running basketball
+insert into student values(1,'Tom',5,'football',90,'表现良好');
+insert into student values(null,'Jerry',8,'football,computer',85,'表现良好');
+insert into student values(null,'Jim',11,'running,basketball',55,'表现一般');
+insert into student values(null,'Ajex',11,null,95,'表现良好');
+insert into student values(null,'Alents',15,'running,football,computer',88,'表现良好');
+insert into student values(null,'Panse',17,'running,computer',82,'表现良好');
+insert into student values(null,'Flikes',17,'basketball,computer',89,'表现良好');
+insert into student values(null,'Evens',9,'basketball',100,'表现好');
+5.
+查找所有年龄不到10岁或者大于14岁的同学
+select * from student where age not between 10 and 14
+查找兴趣爱好中包含computer的同学
+select * from student where
+查找年龄大于等于15 有喜欢足球的同学
+
+查找不及格兴趣爱好又不为空的同学
+select * from student where hobby is not null and score < 60;
+
+查找成绩大于90分的所有同学，只看姓名和成绩
+select name,score from student where score >90;
+
+
+
+
