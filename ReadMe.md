@@ -12,3 +12,7 @@
     python线程不行
 ### hello
 
+## github 
+
+## mysql 关系型数据库 
+    _mysql_
