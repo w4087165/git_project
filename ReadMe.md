@@ -1,10 +1,12 @@
 # git学习
 
-## git commit readme.md
+## git 安装()
+$ sudo apt-get install git
 
-## IO网络
-    阻塞函数 输入输出
-    网络stocket 套接字
+## 创建git仓库 初始化
+$ mkdir [name]
+$ cd [name]
+$ git init
   
 ## 进程线程
   进程线程是系统编程的核心操作
