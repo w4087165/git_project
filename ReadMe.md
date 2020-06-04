@@ -5,7 +5,9 @@ $ sudo apt-get install git
 
 ## 创建git仓库 初始化
 $ mkdir [name]
+
 $ cd [name]
+
 $ git init
   
 ## 进程线程
