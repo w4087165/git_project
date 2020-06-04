@@ -26,11 +26,17 @@ git clone [url]
 
   README        hello.php
 
-  $ git status -s
+  $ git status -s      ##git status 命令用于查看项目的当前状态。
 
   ?? README
 
   ?? hello.php
+
+接下来我们执行 git add 命令来添加文件：
+
+  git add README hello.php 
+  1231321
+
 
  
 
