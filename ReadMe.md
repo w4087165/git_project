@@ -38,7 +38,7 @@ git clone [url]
   
   再执行 git status，就可以看到这两个文件已经加上去了。
   
-##git commit
+## git commit
 使用 git add 命令将想要快照的内容写入缓存区， 而执行 git commit 将缓存区内容添加到仓库中。
 
 Git 为你的每一个提交都记录你的名字与电子邮箱地址，所以第一步需要配置用户名和邮箱地址。
