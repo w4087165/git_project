@@ -15,16 +15,23 @@ git clone [url]
 
 ## 基本快照 （Git 的工作就是创建和保存你的项目的快照及与之后的快照进行对比）
  ###git add
+
  git add 命令可将该文件添加到缓存，如我们添加以下文件：
+
   $ touch README
+
   $ touch hello.php
+
   $ ls  
+
   README        hello.php
+
   $ git status -s
+
   ?? README
+
   ?? hello.php
-  
-$ 
+
  
 
 ## github 
